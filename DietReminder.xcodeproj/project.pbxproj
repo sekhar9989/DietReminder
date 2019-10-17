@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285E8DD38E584095ECCFAFDC /* Pods_DietReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B3126A144555234ED19D6E /* Pods_DietReminder.framework */; };
 		B31A294022F4A81900F63E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A293F22F4A81900F63E3C /* AppDelegate.swift */; };
-		B31A294222F4A81900F63E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A294122F4A81900F63E3C /* ViewController.swift */; };
+		B31A294222F4A81900F63E3C /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A294122F4A81900F63E3C /* CreateVC.swift */; };
 		B31A294522F4A81900F63E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A294322F4A81900F63E3C /* Main.storyboard */; };
 		B31A294822F4A81900F63E3C /* DietReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B31A294622F4A81900F63E3C /* DietReminder.xcdatamodeld */; };
 		B31A294A22F4A81C00F63E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31A294922F4A81C00F63E3C /* Assets.xcassets */; };
 		B31A294D22F4A81C00F63E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A294B22F4A81C00F63E3C /* LaunchScreen.storyboard */; };
+		B31A295822F4BAC700F63E3C /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A295522F4BAC700F63E3C /* CoreDataHelper.swift */; };
+		B31A295922F4BAC700F63E3C /* GalleryCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A295622F4BAC700F63E3C /* GalleryCamera.swift */; };
+		B31A295A22F4BAC700F63E3C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A295722F4BAC700F63E3C /* Extensions.swift */; };
+		B338C19122F619E80064E021 /* CreateTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338C19022F619E80064E021 /* CreateTVC.swift */; };
+		B338C19322F61CEF0064E021 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338C19222F61CEF0064E021 /* ListVC.swift */; };
+		B3D9F92322F9FA3300F69D22 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9F92222F9FA3300F69D22 /* ListTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64B3126A144555234ED19D6E /* Pods_DietReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DietReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F8175AA978A36B00102D7D /* Pods-DietReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietReminder.release.xcconfig"; path = "Target Support Files/Pods-DietReminder/Pods-DietReminder.release.xcconfig"; sourceTree = "<group>"; };
+		8FDFB76A0B725D50A54E5660 /* Pods-DietReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietReminder.debug.xcconfig"; path = "Target Support Files/Pods-DietReminder/Pods-DietReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		B31A293C22F4A81900F63E3C /* DietReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31A293F22F4A81900F63E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B31A294122F4A81900F63E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31A294122F4A81900F63E3C /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
 		B31A294422F4A81900F63E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B31A294722F4A81900F63E3C /* DietReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DietReminder.xcdatamodel; sourceTree = "<group>"; };
 		B31A294922F4A81C00F63E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31A294C22F4A81C00F63E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31A294E22F4A81C00F63E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A295522F4BAC700F63E3C /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		B31A295622F4BAC700F63E3C /* GalleryCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCamera.swift; sourceTree = "<group>"; };
+		B31A295722F4BAC700F63E3C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B338C19022F619E80064E021 /* CreateTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTVC.swift; sourceTree = "<group>"; };
+		B338C19222F61CEF0064E021 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		B3D9F92222F9FA3300F69D22 /* ListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285E8DD38E584095ECCFAFDC /* Pods_DietReminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291C6DF2239C32459DBEABF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B3126A144555234ED19D6E /* Pods_DietReminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB1E375D017008F83E55B27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FDFB76A0B725D50A54E5660 /* Pods-DietReminder.debug.xcconfig */,
+				84F8175AA978A36B00102D7D /* Pods-DietReminder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B31A293322F4A81900F63E3C = {
 			isa = PBXGroup;
 			children = (
 				B31A293E22F4A81900F63E3C /* DietReminder */,
 				B31A293D22F4A81900F63E3C /* Products */,
+				5AB1E375D017008F83E55B27 /* Pods */,
+				291C6DF2239C32459DBEABF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +92,10 @@
 		B31A293E22F4A81900F63E3C /* DietReminder */ = {
 			isa = PBXGroup;
 			children = (
+				B338C18F22F619C80064E021 /* Views */,
+				B31A295B22F4BB3800F63E3C /* ViewControllers */,
+				B31A295422F4BAC700F63E3C /* Helpers */,
 				B31A293F22F4A81900F63E3C /* AppDelegate.swift */,
-				B31A294122F4A81900F63E3C /* ViewController.swift */,
 				B31A294322F4A81900F63E3C /* Main.storyboard */,
 				B31A294922F4A81C00F63E3C /* Assets.xcassets */,
 				B31A294B22F4A81C00F63E3C /* LaunchScreen.storyboard */,
@@ -67,6 +105,34 @@
 			path = DietReminder;
 			sourceTree = "<group>";
 		};
+		B31A295422F4BAC700F63E3C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B31A295522F4BAC700F63E3C /* CoreDataHelper.swift */,
+				B31A295622F4BAC700F63E3C /* GalleryCamera.swift */,
+				B31A295722F4BAC700F63E3C /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B31A295B22F4BB3800F63E3C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B31A294122F4A81900F63E3C /* CreateVC.swift */,
+				B338C19222F61CEF0064E021 /* ListVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B338C18F22F619C80064E021 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B338C19022F619E80064E021 /* CreateTVC.swift */,
+				B3D9F92222F9FA3300F69D22 /* ListTVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B31A295122F4A81C00F63E3C /* Build configuration list for PBXNativeTarget "DietReminder" */;
 			buildPhases = (
+				87A08FF5B048F4254849385B /* [CP] Check Pods Manifest.lock */,
 				B31A293822F4A81900F63E3C /* Sources */,
 				B31A293922F4A81900F63E3C /* Frameworks */,
 				B31A293A22F4A81900F63E3C /* Resources */,
+				97C28695F35A1FE0B233EA50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +201,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87A08FF5B048F4254849385B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DietReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C28695F35A1FE0B233EA50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DietReminder/Pods-DietReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DietReminder/Pods-DietReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DietReminder/Pods-DietReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B31A293822F4A81900F63E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D9F92322F9FA3300F69D22 /* ListTVC.swift in Sources */,
+				B338C19122F619E80064E021 /* CreateTVC.swift in Sources */,
 				B31A294822F4A81900F63E3C /* DietReminder.xcdatamodeld in Sources */,
-				B31A294222F4A81900F63E3C /* ViewController.swift in Sources */,
+				B31A295A22F4BAC700F63E3C /* Extensions.swift in Sources */,
+				B31A294222F4A81900F63E3C /* CreateVC.swift in Sources */,
+				B338C19322F61CEF0064E021 /* ListVC.swift in Sources */,
+				B31A295822F4BAC700F63E3C /* CoreDataHelper.swift in Sources */,
+				B31A295922F4BAC700F63E3C /* GalleryCamera.swift in Sources */,
 				B31A294022F4A81900F63E3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,10 +400,12 @@
 		};
 		B31A295222F4A81C00F63E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDFB76A0B725D50A54E5660 /* Pods-DietReminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DietReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,16 +413,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sekhar-Simhadri.DietReminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B31A295322F4A81C00F63E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F8175AA978A36B00102D7D /* Pods-DietReminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DietReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sekhar-Simhadri.DietReminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
